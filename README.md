@@ -1,0 +1,1 @@
+Welcome to the Solana Bootcamp 2024 repository! This repository contains multiple projects focused on learning and building with the Solana blockchain.
