@@ -11,7 +11,7 @@ pub mod favorites {
 
     pub fn set_favorites(context: Context<SetFavorites>, number: u64, color: String, hobbies: Vec<String>) -> Result<()>{
         msg!("Greetings from {}", context.program_id);
-        let user_public_key = context.accounts.user.key();
+        let _user_public_key = context.accounts.user.key();
 
         msg!("User {user_public_key}'s favorite number is {number}, favorite color is {color}, and their hobbies are {hobbies:?}");
 
